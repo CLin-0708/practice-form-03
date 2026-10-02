@@ -106,3 +106,24 @@ footer {
   color: #666;
   line-height: 1.5;
 }
+
+@media (min-width: 768px) {
+  .intro h1 {
+    font-size: 36px;
+  }
+  .intro p {
+    font-size: 18px;
+  }
+  .card-grid {
+    gap: 24px;
+  }
+}
+
+@media (min-width: 992px) {
+  .spot-card h3 {
+    font-size: 20px;
+  }
+  .spot-card p {
+    font-size: 15px;
+  }
+}
