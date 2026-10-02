@@ -48,7 +48,7 @@ img {
 }
 
 .intro h1 {
-  font-size: 28px;
+  font-size: clamp(24px, 5vw, 42px);
   color: #2c3e50;
 }
 
@@ -63,6 +63,7 @@ img {
   margin: 0 auto;
   padding: 0 16px 16px;
   color: #2c3e50;
+  font-size: clamp(20px, 4vw, 28px);
 }
 
 footer {
@@ -108,9 +109,6 @@ footer {
 }
 
 @media (min-width: 768px) {
-  .intro h1 {
-    font-size: 36px;
-  }
   .intro p {
     font-size: 18px;
   }
