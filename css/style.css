@@ -156,3 +156,21 @@ footer {
     color: #777;
   }
 }
+
+@media print {
+  .site-header, footer {
+    display: none;
+  }
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+  .spot-card {
+    box-shadow: none;
+    border: 1px solid #ccc;
+    break-inside: avoid;
+  }
+  body {
+    background: #fff;
+    color: #000;
+  }
+}
