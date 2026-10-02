@@ -125,3 +125,34 @@ footer {
     font-size: 15px;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+  }
+  .logo {
+    color: #f0f0f0;
+  }
+  .intro h1 {
+    color: #f0f0f0;
+  }
+  .intro p {
+    color: #aaa;
+  }
+  #spots h2 {
+    color: #f0f0f0;
+  }
+  .spot-card {
+    background: #2d2d2d;
+  }
+  .spot-card h3 {
+    color: #f0f0f0;
+  }
+  .spot-card p {
+    color: #aaa;
+  }
+  footer {
+    color: #777;
+  }
+}
